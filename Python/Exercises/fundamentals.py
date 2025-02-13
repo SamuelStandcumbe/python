@@ -18,18 +18,22 @@ height_inp = float(input("What is your height in cm?: "))
 height_res = int(height_inp)
 
 # Taking the favourite programming language of the user.
-pl = str(input("What is your favourite programming language?: "))
-fpl = pl.replace("python" or "Python", "a powerful language")
+fpl_inp = str(input("What is your favourite programming language?: "))
+fpl_res = fpl_inp.replace("python" or "Python", "a powerful language")
 
 # Taking the favourite number of the user and converting it to a str (from an int)
-number = int(input("What is your favourite number?: "))
-favourite_number = str(number)
+number_inp = int(input("What is your favourite number?: "))
+number_res = str(number_inp)
 
-# Taking the deascription of the user.
+# Taking the description of the user.
 desc = str(input("Describe yourself: "))
 
 print("\n\n\n")
 
 # Printing the converted outputs
 
-print(f"Hello {fname}. \nYour full name has {len_full_name} letter. \nYour favourite programming language is {fpl}.")
+print(f"Hello {fname}. \nYour full name has {len_full_name} letters. \nYour favourite programming language is {fpl_res}.")
+
+age_plus_number = print(age_inp + number_inp)
+
+print(age_plus_number)
